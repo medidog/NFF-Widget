@@ -1,0 +1,108 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+	font-size: 10.65px;
+}
+body div
+{
+	overflow: hidden;
+	cursor: default;
+	z-index: 5;
+}
+body img#pin
+{
+	position: absolute;
+	top: 0;
+	left: 72px;
+	z-index: 10;
+	cursor: move;
+}
+body img#close
+{
+	position: absolute;
+	top: 18px;
+	left: 4px;
+	z-index: 10;
+	cursor: pointer;
+}
+body div#main
+{
+	background: transparent url('../images/back_main.png') no-repeat;
+	width: 191px;
+	height: 203px;
+	margin-top: 16px;
+	padding-right: 14px;
+}
+body div#main>div#localNoteCounter
+{
+	float: right;
+	clear: both;
+	width: 30px;
+	text-align: center;
+}
+body div#main>textarea#note
+{
+	background: transparent url('../images/back_note.png') repeat scroll;
+	border: none;
+	outline: none;
+	float: left;
+	clear: both;
+	margin: 5px 0 4px 12px;
+	width: 182px;
+	height: 120px;
+	font-size: 13px;
+	line-height: 20px;
+}
+body div#main>a#logo
+{
+	float: left;
+	width: 102px;
+	height: 50px;
+	margin: 0 4px;
+	border: none;
+}
+body div#main>div#controlButtons
+{
+	float: left;
+	height: 52px;
+	width: 81px;
+	margin: 0;
+}
+body div#main>div#controlButtons>div#actionButtons
+{
+	float: left;
+	width: 51px;
+}
+body div#main>div#controlButtons>div#actionButtons img
+{
+	cursor: pointer;
+	float: left;
+	clear: both;
+	width: 51px;
+}
+body div#main>div#controlButtons>div#directionalButtons
+{
+	float: right;
+	width: 30px;
+	margin-top: 22px;	
+}
+body div#main>div#controlButtons>div#directionalButtons img
+{
+	height: 28px;
+	width: 15px;
+	cursor: pointer;
+	float: right;
+}
+body div#footer
+{
+	background: transparent url('../images/back_footer.png') no-repeat;
+	width: 162px;
+	height: 26px;
+	padding: 14px 14px 14px 30px;
+	text-align: center;
+	line-height: 1.4em;
+	color: #000000;
+	cursor: pointer;
+}

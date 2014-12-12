@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Numil Fikir Fabrikas!</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="lib/air/AIRAliases.js"></script>
+		<script type="text/javascript" src="lib/aV/dP.ext.date.js"></script>
+		<script type="text/javascript" src="lib/aV/aV.ext.object.js"></script>
+		<script type="text/javascript" src="lib/aV/aV.ext.array.js"></script>
+		<script type="text/javascript" src="lib/aV/aV.ext.string.js"></script>
+		<script type="text/javascript" src="lib/aV/aV.main.AJAX.js"></script>
+		<script type="text/javascript" src="lib/aV/aV.air.database.js"></script>
+		<script type="text/javascript" src="lib/nff/nff.main.js"></script>
+		<script type="text/javascript" src="lib/nff/nff.updater.js"></script>
+	</head>
+	<body>
+		<img id="close" src="images/close.png" />
+		<img id="pin" onmousedown="window.nativeWindow.startMove()" src="images/down_pin.png" />
+		<div id="main">
+			<div id="localNoteCounter">00/00</div>
+			<textarea id="note"></textarea>
+			<a id="logo" href="http://www.numilfikirfabrikasi.com" target="_blank"><img src="images/logo.png" alt="Fikir Fabrikas!" /></a>
+			<div id="controlButtons">
+				<div id="actionButtons">
+					<img id="buttonSave" src="images/save.png" alt="Kaydet" alt="Notunuzu kaydetmek için tıklayın" />
+					<img id="buttonDelete" src="images/delete.png" alt="Sil" title="Şu anki notu silmek için tıklayın" />
+					<img id="buttonNew" src="images/new.png" alt="Yeni" title="Yeni bir not oluşturmak için tıklayın" />
+				</div>
+				<div id="directionalButtons">
+					<img id="buttonNext" src="images/next.png" alt="İleri" increment="1" title="Bir sonraki nota geçmek için tıklayın" />
+					<img id="buttonBack" src="images/back.png" alt="Geri" increment="-1" title="Bir önceki nota geçmek için tıklayın" />
+				</div>
+			</div>
+		</div>
+		<div id="footer" onclick="air.navigateToURL(new air.URLRequest('http://www.numilfikirfabrikasi.com'))">
+		</div>
+	</body>
+</html>
